@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3405069';
+    var serviceWorkerVersion = '2401966281';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -100,25 +100,5 @@
       loadMainDartJs();
     }
   </script>
-  <script>
-  //for zoom detection
-  px_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
-  function isZooming(){
-      var newPx_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
-      if(newPx_ratio != px_ratio){
-          px_ratio = newPx_ratio;
-          console.log("zooming");
-          return true;
-      }else{
-          console.log("just resizing");
-          return false;
-      }
-  }
-  window.addEventListener("resize", event => {
-    if(isZooming()){
-      window.location.reload();
-    }
-  });
-</script>
 </body>
 </html>
