@@ -61683,7 +61683,7 @@ return A.ag8(B.hC,A.aQ(A.cB(A.a([A.jb(A.d9(A.a([B.me,new A.e8(1,B.bd,new A.Gf(p,
 A.Gf.prototype={
 E(a,b){var s,r,q,p,o,n,m,l,k=null,j=A.ho(),i=this.c,h=i.a
 i=i.b
-s=A.pb(A.FL("assets/images/manhal2.png",k,i*0.4,h*0.4),"SM")
+s=A.pb(A.FL("assets/images/manhal2.png",k,i*0.4,h*0.4),"MS")
 r=i*0.05
 q=A.aQ(k,r,k)
 p=t.p
