@@ -4,7 +4,6 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "363fcec43dd7a006f0fe1adf8b8d1e10",
-"assets/assets/images/app_icon.png": "6fba28209ea88e2b1ea23e19a83f970c",
 "assets/assets/images/manhal.png": "3c88a4029783ff972ce181614821bf0b",
 "assets/assets/images/manhal2.png": "4a9012ec6ced3a607059edcf85f39d59",
 "assets/assets/images/MS/s1.png": "3d6312092af766089e79e83ada6b77e8",
@@ -42,9 +41,9 @@ const RESOURCES = {
 "icons/favicon-32x32.png": "a193481ec31559f7101d474db1616608",
 "icons/favicon.ico": "99e4678257116b6b17b0d916f9422522",
 "icons/site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
-"index.html": "c678986a2d2bad5c86c56d2997d17e09",
-"/": "c678986a2d2bad5c86c56d2997d17e09",
-"main.dart.js": "e542c7a1639621311f2fef4ff9c39240",
+"index.html": "f5ad3103d26e30137f6a42be55964f4b",
+"/": "f5ad3103d26e30137f6a42be55964f4b",
+"main.dart.js": "7b2ab33b0eb1c42762573f37e33dd502",
 "manifest.json": "45cf7b55a033a0c6dd2d6dc8cc8b8a19",
 "version.json": "009c9e65172e010890f7f65fde438006"
 };
