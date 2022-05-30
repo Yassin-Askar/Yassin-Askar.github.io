@@ -39,13 +39,39 @@
 
   <title>portfolio</title>
 </head>
+<style>
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
 
-<body>
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container img {
+
+    height: 50vh;
+    width: 50vw;
+  }
+</style>
+
+<body style="overflow:hidden;">
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/loading.gif" alt="" srcset="">
+  </div>
+
+
+
+
+
+
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '555472345';
+    var serviceWorkerVersion = '2716361432';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -107,6 +133,17 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+  </script>
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById('loading_indicator');
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000);
+
+    };
   </script>
 </body>
 
