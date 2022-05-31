@@ -7335,7 +7335,7 @@ _.c=c
 _.d=d},
 Td:function Td(){},
 B0:function B0(){},
-Te(a,b,c,d,e){return new A.t9(a,c,b,e,d,null)},
+Te(a,b,c,d,e){return new A.t9(a,c,b,e,!0,null)},
 oi:function oi(){},
 t9:function t9(a,b,c,d,e,f){var _=this
 _.c=a
@@ -34860,16 +34860,14 @@ return A.Xb(B.ax,s,B.aB,!1,q,q,q,q,q,q,q,q,q,q,r.gUw(),q,q,q,q,q,q)},
 gDo(){var s=this.r
 this.a.toString
 return s===0},
-DI(){var s,r,q=this,p=q.gDo()
-q.w=!1
-s=q.a
-s.toString
-if(p){r=s.Q||q.f!==2
-if(r){q.r=0
-if(!s.Q)++q.f}else return}else ++q.r
-if(q.c!=null)q.av(new A.a7M())
-A.b(q.d,"_controller").p(0)
-q.Di()},
+DI(){var s=this,r=s.gDo()
+s.w=!1
+s.a.toString
+if(r)s.r=0
+else ++s.r
+if(s.c!=null)s.av(new A.a7M())
+A.b(s.d,"_controller").p(0)
+s.Di()},
 Di(){var s=this,r="_currentAnimatedText",q="_controller",p=s.a.c[s.r]
 s.e=p
 s.d=A.cO(null,A.b(p,r).d,0,null,1,null,s)
@@ -61458,7 +61456,7 @@ l.toString
 s=b.K(t.l).f.a
 r=A.aC(b).as
 q=A.hp()
-p=A.cp(A.Te(A.a([A.agv(l.gFM(),B.aC,B.mx)],t.u6),!1,B.bc,!1,!1),m,m)
+p=A.cp(A.Te(A.a([A.agv(l.gFM(),B.aC,B.mx)],t.u6),!1,B.bc,!0,!1),m,m)
 o=t.p
 l=s.a<850?A.cp(A.cB(A.a([n.G6(r,l,!0,s,b),n.Gy(r,l,!0,s)],o),B.x,B.P,B.w),m,m):A.cp(A.d7(A.a([A.kw(n.G6(r,l,!1,s,b)),A.kw(A.cB(A.a([n.Gy(r,l,!1,s)],o),B.x,B.P,B.w))],o),B.x,B.P,B.w),1.5,m)
 return A.px(A.a([A.cB(A.a([new A.b2(B.o4,p,m),l],o),B.x,B.P,B.w)],o),q)},
@@ -61491,7 +61489,7 @@ k.toString
 s=b.K(t.l).f.a
 A.aC(b)
 r=A.hp()
-k=A.cp(A.Te(A.a([A.agv(k.gGO(),B.aC,B.mx)],t.u6),!1,B.bc,!1,!1),2,l)
+k=A.cp(A.Te(A.a([A.agv(k.gGO(),B.aC,B.mx)],t.u6),!1,B.bc,!0,!1),2,l)
 q=s.a>600
 p=q?s.b*0.3:l
 o=t.p
