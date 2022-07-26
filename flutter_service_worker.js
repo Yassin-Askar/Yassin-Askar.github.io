@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "363fcec43dd7a006f0fe1adf8b8d1e10",
+  "assets/AssetManifest.json": "9c553c539f5d4b84540ed4c9386e7c29",
 "assets/assets/images/manhal.png": "3c88a4029783ff972ce181614821bf0b",
 "assets/assets/images/manhal2.png": "4a9012ec6ced3a607059edcf85f39d59",
 "assets/assets/images/MS/s1.png": "3d6312092af766089e79e83ada6b77e8",
@@ -21,8 +21,9 @@ const RESOURCES = {
 "assets/assets/images/RR/w4.png": "fdf1910c6f0d2704998c1525a872f133",
 "assets/assets/images/RR/w5.png": "1b830cd517387f74bdf09f6ada9b3242",
 "assets/assets/images/RR.png": "6fba28209ea88e2b1ea23e19a83f970c",
+"assets/assets%255Cfonts%255CLeetCode.ttf": "ce08fb4b1893a2c76920d9db8310f309",
 "assets/assets%255Cfonts%255CSocialMediaIcons.ttf": "736b5bcb7272edfd2061d1bda9be9c3d",
-"assets/FontManifest.json": "5a2176600cfa8545d39f656a2c507e48",
+"assets/FontManifest.json": "ccc6b1b7db691f8882f3d5a791c85f40",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/loading.gif": "02ef21e57a84dcff9c2af7b53ab01e77",
 "assets/NOTICES": "11d7db14c3898f2bfcc70229695b6104",
@@ -33,7 +34,7 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.ico": "56e8f2ce8d80019b5fdb85210c430c71",
 "favicon.png": "56e8f2ce8d80019b5fdb85210c430c71",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/android-chrome-192x192.png": "ee2810e4758a4a6a1f0ace483d91f154",
 "icons/android-chrome-512x512.png": "625a7b7c40e57d3d0b4f15a699c13e47",
 "icons/apple-touch-icon.png": "38f167bbcd9d046cbe38816251b3c3b1",
@@ -41,9 +42,9 @@ const RESOURCES = {
 "icons/favicon-32x32.png": "a193481ec31559f7101d474db1616608",
 "icons/favicon.ico": "99e4678257116b6b17b0d916f9422522",
 "icons/site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
-"index.html": "f41e3f3bf531130cc6dc914123e1fec2",
-"/": "f41e3f3bf531130cc6dc914123e1fec2",
-"main.dart.js": "3cf58afa71554daf448c1e3238f12536",
+"index.html": "06f919c4fc7e8c509b6f7db1a0050e5c",
+"/": "06f919c4fc7e8c509b6f7db1a0050e5c",
+"main.dart.js": "dbd7280795cd25e8b6f50f61c9075ed6",
 "manifest.json": "45cf7b55a033a0c6dd2d6dc8cc8b8a19",
 "version.json": "009c9e65172e010890f7f65fde438006"
 };
